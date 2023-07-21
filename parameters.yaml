@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Template per i parametri della stack CloudFormation.
+
+Parameters:
+  InstanceProfile:
+    Type: String
+    Description: "IAM Instance Profile"
+    Default: "MyInstanceProfile"
+
+  AMI_ID:
+    Type: String
+    Description: "ID dell'immagine "
+    Default: ami-0c94855ba95c71c99"  
+  MyKeyPair:
+    Type: String
+    Description: "Chiave di accesso"
+    Default: "DevOpsDemo.pem"  
